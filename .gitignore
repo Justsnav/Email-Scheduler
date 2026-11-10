@@ -1,0 +1,30 @@
+# Dependencies (re-created with `npm install`)
+node_modules/
+
+# Build output (re-created with `npm run build` / `tsc`)
+dist/
+*.tsbuildinfo
+
+# Environment variables: contain passwords, never commit
+.env
+.env.*
+!.env.example
+
+# Prisma generated client (only used if you set a custom output path)
+/src/generated/prisma
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test coverage reports (Phase 7)
+coverage/
+
+# Editor and OS files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
